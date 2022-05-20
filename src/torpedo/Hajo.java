@@ -11,12 +11,8 @@ public class Hajo {
     }
     
     public String talalat(int poz){
-
-        Hajo hajo = new Hajo(3);
         
-        new Hajo([2, 3, 4]);
-    
-        return null;
+        Hajo hajo = new Hajo([2, 3, 4]);
         
     }    
 }
