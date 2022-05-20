@@ -6,9 +6,9 @@ public class TorpedoTeszt {
 
         public String tesztLoves(int poz){
 
-                Hajo hajo = new Hajo();
-                String t = hajo.talalat(4);
-                assert t.equals("talált") : "nem jó a találat ellenőrzése";
+            Hajo hajo = new Hajo();
+            String t = hajo.talalat(4);
+            assert t.equals("talált") : "nem jó a találat ellenőrzése";
 
             }
 
