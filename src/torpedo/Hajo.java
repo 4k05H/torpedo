@@ -2,7 +2,7 @@ package torpedo;
 
 public class Hajo {
     
-    private int pozicio[] = new int[3];
+    public int pozicio[] = new int[3];
     
     public Hajo(int[] pozicio) {
         

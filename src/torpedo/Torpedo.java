@@ -11,9 +11,6 @@ public class Torpedo {
         int talalatok = 0;
         int lovesek = 0;
         
-        String palya[] = {"_", "_", "_", "_", "_", "_", "_"};
-        System.out.println(palya);
-        
         Hajo hajo = new Hajo();
         TorpedoTeszt t = new TorpedoTeszt();
         
@@ -28,7 +25,6 @@ public class Torpedo {
                 if (talalat[tipp] == pozicio[i]){
 
                     System.out.println("találat!");
-                    pozicio[i] == "";
                     talalatok ++;
 
                 }else{
@@ -44,5 +40,7 @@ public class Torpedo {
         System.out.printf("Kilőtted az összes hajót %d lövésből!", lovesek);
         
     }
+
+    
     
 }
